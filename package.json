@@ -1,0 +1,22 @@
+{
+  "name": "refresh",
+  "version": "1.0.0",
+  "description": "Project to Refresh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dockerapp"
+  },
+  "author": "lan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "type": "module"
+}
